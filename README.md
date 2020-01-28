@@ -7,6 +7,7 @@
 <BODY BGCOLOR=“black”  TEXT=“white”>
 <BASEFONT SIZE=7>
 	September 9th 2020
+	
 	<B> Overview </B>
 	
 	The purpose of this project is to solve major landslide issues in developing countries.
@@ -21,7 +22,8 @@
 <LI> Start with one country: Columbia. 
 <LI> Show users where they can plant to prevent the landslides.
 </UL>
-	 <B> Links to Current Issues </B>
+
+	<B> Links to Current Issues </B>
 
 <UL>
 <LI> <A HREF=“https://www.youtube.com/watch?v=ztVIBlDnYfI”>CNN</A> 
