@@ -1,7 +1,7 @@
 # BrocolliRules2.github.io
 <HTML>
 <HEAD>
-	<TITLE> Solving Landslides </TITLE>
+<TITLE> Solving Landslides </TITLE>
 <H1 ALIGN=CENTER> Landslide Proposal </H1>
 </HEAD>
 <BODY BGCOLOR=“black”  TEXT=“white”>
