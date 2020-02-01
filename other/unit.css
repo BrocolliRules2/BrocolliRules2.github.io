@@ -1,0 +1,20 @@
+body {
+  background-color: #577643;
+  text-align: center;
+}
+
+* {
+  font-family: "Courier New", Times, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header{background-color: #C1E6CD;
+  margin-top:-20px;
+  margin-left:0%;
+  margin-right:0%;
+}
+
+
