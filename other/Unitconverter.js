@@ -9,7 +9,7 @@ if (iunit==1) {
 } else if (iunit==4) {
   t=i;
 } else if (iunit==5) {
-  t=i*30.48;  
+  t=i*3;  
 } else {
   t=i*3.28084;
 }
@@ -25,7 +25,7 @@ if (ounit==1) {
 } else if (ounit==4) {
   tmp=t;
 } else if (ounit==5) {
-  tmp=t/30.48;  
+  tmp=t/3;  
 } else {
   tmp=t/3.28084;
 }
@@ -40,6 +40,6 @@ var inUnits=document.getElementById("input_units").value;
 var outUnits=document.getElementById("output_units").value;
 
 document.getElementById("ans").innerHTML=calc((input),(inUnits),(outUnits));
-} 
+}
 
 
