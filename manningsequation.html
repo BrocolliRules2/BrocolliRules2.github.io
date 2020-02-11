@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+<link rel="stylesheet" href="other/unit.css" />
+ 
+ </head>
+<body>
+  Mannings Equation Calculator </br>
+  <br/>
+  V= (Kn/n)R^(2/3)S^(1/2) </br>
+</br>
+
+v = cross-sectional mean velocity (ft/s, m/s) </br>
+kn = 1.486 for English units and kn = 1.0 for SI units </br>
+n = Manning coefficient of roughness - ranging from 0.01 (a clean and smooth channel) to 0.06 (a channel with stones and debris, 1/3 of vegetation) </br>
+R = hydraulic radius (ft, m) </br>
+S = slope - or gradient - of pipe (ft/ft, m/m) </br> </br>
+R = A / Pw  <br> </br>
+A = cross sectional area of flow (ft2, m)</br>
+Pw = wetted perimeter (ft, m)</br>
+</br>
+<select id="units">
+  <option value="1">English</option>
+  <option value="2">SI</option> 
+</select>
+  </br>
+n: <input type="number" id="manning" value=""> </br>
+R: <input type="number" id="radius" value=""> </br>
+S: <input type="number" id="slope" value=""><br> </br> 
+
+<button onclick="testFunc()">Calculate</button>
+<br></br>
+   <div id="ans"></div>
+ <script src="other/manning.js"></script>
+
+</body>
+ 
+</html>
